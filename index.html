@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Help Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="desk">
+
+  <header class="masthead">
+    <div>
+      <h1>Course Help Desk</h1>
+      <p>Ask about accounts, billing, or courses — answered from our FAQ.</p>
+    </div>
+    <div class="postmark">TASK&nbsp;02<br>CodeAlpha</div>
+  </header>
+
+  <div class="chat-window" id="chatWindow" aria-live="polite">
+    <div class="bubble bot">
+      <p>Hi! I can answer questions about accounts, courses, billing, certificates and more. What do you need help with?</p>
+    </div>
+  </div>
+
+  <div class="suggestions" id="suggestions">
+    <button class="chip" data-q="How do I reset my password?">Reset my password</button>
+    <button class="chip" data-q="Can I get a refund?">Refund policy</button>
+    <button class="chip" data-q="Do I get a certificate?">Certificates</button>
+    <button class="chip" data-q="How do I cancel my subscription?">Cancel subscription</button>
+  </div>
+
+  <form class="composer" id="composer">
+    <input type="text" id="messageInput" placeholder="Type your question…" autocomplete="off" maxlength="300">
+    <button type="submit" id="sendBtn" aria-label="Send message">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+        <path d="M4 12L20 4L13 20L11 13L4 12Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </form>
+
+  <footer class="notes">
+    Answers are matched from a fixed FAQ list using TF-IDF vectorization and cosine similarity (scikit-learn),
+    after cleaning and lemmatizing your question with NLTK. If nothing scores high enough, the bot says so
+    instead of guessing — edit <code>faqs.json</code> to point this at your own product or topic.
+  </footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
