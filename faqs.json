@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How do I create an account?",
+    "answer": "Click Sign Up in the top right corner, enter your email and a password, then confirm your email address from the link we send you."
+  },
+  {
+    "question": "I forgot my password, how can I reset it?",
+    "answer": "Go to the login page and click Forgot password. Enter your registered email and we'll send you a reset link that's valid for 30 minutes."
+  },
+  {
+    "question": "How do I enroll in a course?",
+    "answer": "Open the course page and click Enroll Now. If it's a paid course you'll be taken to checkout; free courses give you instant access."
+  },
+  {
+    "question": "Can I get a refund if I don't like a course?",
+    "answer": "Yes, we offer a full refund within 14 days of purchase as long as you've completed less than 30% of the course. Request it from Settings > Purchases."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, PayPal, and Apple Pay. All payments are processed securely and we never store your card details."
+  },
+  {
+    "question": "Do I get a certificate after finishing a course?",
+    "answer": "Yes, you receive a downloadable certificate of completion once you finish all lessons and pass the final quiz with at least 70%."
+  },
+  {
+    "question": "Can I download videos to watch offline?",
+    "answer": "Yes, the mobile app lets you download lessons for offline viewing. Downloads aren't available on the web version yet."
+  },
+  {
+    "question": "How long do I have access to a course after buying it?",
+    "answer": "Once purchased, you have lifetime access to the course, including all future updates to its content."
+  },
+  {
+    "question": "The video won't play, what should I do?",
+    "answer": "Try refreshing the page or switching browsers first. If it still doesn't work, clear your browser cache or try our mobile app instead."
+  },
+  {
+    "question": "How do I contact an instructor with a question?",
+    "answer": "Use the Q&A tab under any lesson to post your question directly to the instructor and other students taking the course."
+  },
+  {
+    "question": "Can I change my email address?",
+    "answer": "Yes, go to Settings > Account and update your email. You'll need to verify the new address before the change takes effect."
+  },
+  {
+    "question": "Is there a mobile app?",
+    "answer": "Yes, our app is available for both iOS and Android. Search for our name in the App Store or Google Play to download it."
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Subscription and click Cancel Plan. You'll keep access until the end of your current billing cycle."
+  },
+  {
+    "question": "Do you offer team or business accounts?",
+    "answer": "Yes, our Business plan lets you assign courses to a team and track their progress from a shared dashboard. Contact sales for pricing."
+  },
+  {
+    "question": "Why was my payment declined?",
+    "answer": "This usually happens when the card has insufficient funds, incorrect billing details, or your bank blocks online payments. Try another card or contact your bank."
+  },
+  {
+    "question": "Can I get an invoice for my purchase?",
+    "answer": "Yes, invoices are generated automatically and available under Settings > Purchases > Download Invoice."
+  },
+  {
+    "question": "How do I leave a review for a course?",
+    "answer": "Once you've completed at least 20% of a course, a Leave a Review prompt appears on the course page."
+  },
+  {
+    "question": "Is my personal data safe with you?",
+    "answer": "Yes, we encrypt your data in transit and at rest, and we never sell your personal information to third parties."
+  },
+  {
+    "question": "Can instructors reply to messages in another language?",
+    "answer": "Instructors typically reply in the language the course is taught in, but many are happy to help in English as well."
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "Go to Settings > Account > Delete Account. This permanently removes your data and cannot be undone, so make sure to download any certificates first."
+  }
+]
